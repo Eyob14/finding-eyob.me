@@ -1,0 +1,150 @@
+/* ################################################### */
+/* ###################for mobile ########## */
+/* ################################################### */
+.content-wrapper {
+    background-image: url(../images/back-2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover; 
+    background-color: #464646;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    min-height: 100vh;
+}
+.main {
+    width: 100%;
+    height: 100%;
+}
+.main_section {
+    width: 100%;
+    padding: 0.5em 1em;
+}
+
+.main-heading {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 3em;
+    margin: 0.5em 0;
+    text-transform: uppercase;
+    color: #fff;
+}
+.section_p {
+    font-size: 1.1em;
+    text-transform: capitalize;
+    width: 60%;
+}
+.section_span {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline-block;
+    font-size: 1.2em;
+    white-space: nowrap;
+    font-weight: bold;
+    margin-bottom: 1em;
+    color: #F47321;
+
+}
+
+/* ################################################### */
+/* #####################for tablet  ############## */
+/* ################################################### */
+@media only screen and (min-width: 670px) and  (max-width: 1023px) {
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0.5em 3em;
+}
+.section {
+    width: 100%;
+    flex: 1 1 0;
+}
+.main-heading {
+    position: relative;
+    font-size: 6em;
+    color: #000a12;
+    -webkit-text-stroke: 0.3vw #383d52;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.main-heading::before {
+    content: attr(data-text);
+    position: absolute;
+    color: #fff;
+    -webkit-text-stroke: 0 #252839; 
+    overflow: hidden;
+    text-align: center;
+} 
+.section_span {
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 1.7em;
+    margin-bottom: 0.5em;
+    /* white-space: nowrap; */
+}
+.section_p {
+    text-transform: capitalize;
+    font-size: 1.7em;
+    width: 60%;
+    margin: auto;
+}
+
+}
+
+/* ################################################### */
+/* ############################# For Desktop ############## */
+/* ################################################### */
+
+@media only screen and (min-width: 1023px) {
+    .wrapper__content {
+        display: grid;
+        grid-template-columns: 2fr fit-content(15%);
+        gap: 3px;
+        min-height: 100vh;
+    }
+    .header {
+        grid-column: 2/3;
+        grid-row: 1;
+    }
+
+.main {
+    grid-column: 1/2;
+    min-width: 100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0.5em 3em;
+}
+.main_section {
+    width: 100%;
+    flex: 1 1 0;
+}
+.main-heading {
+    font-size: 6.4em;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 15%;
+}
+.section_span {
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 1.7em;
+    margin-bottom: 0.5em;
+    white-space: nowrap;
+}
+.section_p {
+    text-transform: capitalize;
+    font-size: 1.8em;
+    width: 60%;
+    margin: auto;
+}
+
+}

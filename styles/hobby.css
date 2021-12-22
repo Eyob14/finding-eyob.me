@@ -1,0 +1,189 @@
+
+/* ################################################### */
+/* #######################for mobile  ############## */
+/* ################################################### */
+
+.main-hobby {
+    padding: 1.4em;
+    margin: auto;
+}
+.main-heading {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0.2em;
+    margin: 0.7em;
+}
+
+.wrapper{
+    width: 100%;
+    padding: 0.6em;
+    
+}
+.hobby-section {
+    padding: 0.7em;
+    margin-bottom: 0.7em;
+}
+.hobby-heading {
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 0.9em;
+    border-bottom:1px solid #F47321
+}
+.hobby-figure {
+    width: 60%;
+    margin: auto;
+    border: 0.1px solid #F47321;
+}
+.hobby-figure_image {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 0.5em;
+}
+.hobby-paragraph {
+    font-family: 'proxima-nova', Arial, sans-serif;
+    font-size: 1em;
+    line-height: 1.4;
+    padding: 0.3em;
+    margin: 0.5em;
+}
+.unordered-list {
+    padding: 1.2em 0 1.2em 20%;
+    font-size: 1.1em;
+    text-transform: capitalize;
+    line-height: 1.4;
+}
+.ordered-list {
+    text-transform: capitalize;
+    font-size: 1.1em;
+    padding: 1.2em 0 1.2em 20%;
+    line-height: 1.5;
+}
+
+/* ################################################### */
+/* ######################## for tablets ############## */
+/* ################################################### */
+
+@media only screen and (min-width: 670px) and  (max-width: 1023px) {
+    .main-heading {
+        font-size: 2.6em;
+        width: 70%;
+        margin: auto;
+        border-bottom: 0.1px solid #F47321;
+    }
+    .hobby-heading {
+        text-transform: capitalize;
+        font-size: 2.5em;
+        text-align: center;
+        margin-bottom: 0.9em;
+    }
+    .hobby-figure {
+        width: 60%;
+        margin: auto;
+        border: 0.1px solid #F47321;
+    }
+    .hobby-figure_image {
+        max-width: 100%;
+        height: auto;
+        margin: auto;
+        margin-bottom: 1em;
+    }
+    .hobby-paragraph {
+        font-family: 'proxima-nova', Arial, sans-serif;
+        font-size: 1.15em;
+        line-height: 1.4;
+        padding: 0.3em;
+        margin-left: 10%;
+        word-spacing: 0.05em;
+    }
+    .unordered-list {
+        padding: 1.2em 0.5em 1.2em 20%;
+        font-size: 1.3em;
+        text-transform: capitalize;
+        white-space: nowrap;
+    }
+    .ordered-list {
+        text-transform: capitalize;
+        font-size: 1.1em;
+        padding: 1.2em 0 1.2em 20%;
+        line-height: 1.5;
+        white-space: nowrap;
+    }
+}    
+
+
+/* ################################################### */
+/* ############################# For Desktop ############## */
+/* ################################################### */
+
+@media only screen and (min-width: 1023px) {
+.main-heading {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0.2em;
+    margin: 0.7em;
+    font-size: 2.9em;
+    border-bottom: 2px solid #F47321;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    padding: 0.6em;
+    
+}
+.hobby-section {
+    padding: 0.7em;
+    margin-bottom: 0.7em;
+}
+.hobby-heading {
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 0.9em;
+    font-size: 1.8em;
+}
+.hobby-figure {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 0.5em;
+}
+.hobby-figure_image {
+    max-width: 100%;
+    margin: auto;
+}
+.hobby-paragraph {
+    font-family: 'proxima-nova', Arial, sans-serif;
+    font-size: 1em;
+    padding: 0.3em;
+    margin: 0.5em;
+    line-height: 1.4;
+    word-spacing: 0.14em;
+}
+.unordered-list {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    line-height: 1.3;
+    text-transform: capitalize;
+    padding: 1.2em 0 1.2em 20%;
+    line-height: 1.5;
+}
+.ordered-list {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    line-height: 1.3;
+    text-transform: capitalize;
+    padding: 1.2em 0 1.2em 20%;
+    line-height: 1.6;
+}
+.arrow {
+    display: inline-block;
+    background-color: #fff;
+    width: 2em;
+    margin-left: 96%;
+    margin-bottom: 5%;
+}
+.arrow:hover {
+    background-color:#F47321;
+}
+
+}

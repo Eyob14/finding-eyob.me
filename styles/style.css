@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #000;
+    color: #ffffff;
+    overflow-x: hidden;
+
+}
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.content-wrapper {
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: "open sans", h;
+}
+
+/* ################################################### */
+/* ############################# footer ############## */
+/* ################################################### */
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: #263238;
+    border-top: 1px solid #fff;
+}
+.footer__list {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-content: center;
+}
+.footer__list_item {
+    display: inline;
+    height: auto;
+    padding: 0.7em;
+}
+.footer-icon {
+    display: inline-block;
+    max-width: 35px;
+    text-align: center;
+    background-color: #ffffff;
+}
+.copyright {
+    text-align: center;
+    font-size: 1em;
+}
+.footer-icon:hover {
+    background-color: rgba(86, 86, 255, 0.76);
+
+}
+
+/* ################################################### */
+/* ############################# header ############## */
+/* ################################################### */
+
+.header {
+    width: 100%;
+    height: auto;
+}
+.nav_ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em;
+}
+.ul_list {
+    display: inline-block;
+    flex: 1 1 0;
+    height: 2.5em;
+    text-align: center;
+    margin: 0.1em;
+}
+.ul_list_a {
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+    padding: 0.6em;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.4em;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.ul_list_a:hover,
+.ul_list_a:focus {
+    background-color: #F47321;
+}
+.ul_list_a--special {
+    border-bottom: 2px solid #F47321;
+}
+/* ################################################### */
+/* #######################for tablet ############## */
+/* ################################################### */
+@media only screen and (min-width: 670px) and  (max-width: 1023px) {
+
+    .header {
+        width: 100%;
+        max-height: 25%;
+        padding-top: 1em;
+    }
+    .nav_ul {
+        list-style-type: none;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .ul_list {
+        display: inline-block;
+        flex: 1 1 0;
+        height: 3em;
+        text-align: center;
+        margin-top: 0.5em;
+        margin: 0.1em;
+    }
+    .ul_list_a {
+        display: inline-block;
+        width: 100%;
+        padding: 0.4em;
+        text-decoration: none;
+        text-align: center;
+        font-size: 1.1em;
+        color: #fff;
+        font-weight: bold;
+        letter-spacing: 0.01em;
+    }
+}
+
+
+/* ################################################### */
+/* ############################# For Desktop ############## */
+/* ################################################### */
+
+@media only screen and (min-width: 1023px) {
+    .content-wrapper {
+        display: grid;
+        grid-template-columns: 2fr fit-content(15%);
+        gap: 3px;
+        min-height: 100vh;
+    }
+    .header {
+        grid-column: 2/3;
+        grid-row: 1;
+    }
+    .main {
+        grid-column: 1/2;
+        min-width: 100%;
+    }
+}

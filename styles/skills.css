@@ -1,0 +1,90 @@
+
+/* ################################################### */
+/* #####################for mobile ############## */
+/* ################################################### */
+.main-skill {
+    padding: 1.1em;
+    font-size: 1.1em;
+    line-height: 1.4;
+}
+.experience {
+    font-size: 1.2em;
+    color: #fff;
+    width: 70%;
+    margin: auto;
+}
+.experience__h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.5em;
+    margin-bottom: 0.9em;
+    border-bottom: 2px solid #F47321;
+}
+.experience__p {
+    font-size: 0.9em;
+    color: #fff;
+    padding: 0.3em;
+    margin: 0.5em;
+}
+.skills__h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.9em;
+    margin-bottom: 0.9em;
+    border-bottom: 2px solid #F47321;
+}
+.list {
+    padding: 0.5em 0 1.2em 20%;
+    font-size: 0.9em;
+    color: #fff;
+}
+.skills-section {
+    width: 70%;
+    margin: auto;
+    padding: 1em 0.5em;
+    margin-bottom: 10%;
+}
+.skills__table {
+    min-width: 40%;
+	width: 100%;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid gray;
+    min-height: 50%;
+}
+.table__container {
+    width: 100%;
+    background-color: #fff;
+}
+.table-header {
+    font-size: 1.5em;
+    text-align: center;
+}
+.skills {
+    font-size: 1.2em;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #000;
+    font-weight: bold;
+}
+
+.html {width: 90%; background-color: #F47321;}
+.css {width: 80%; background-color: #F47321;}
+.js {width: 65%; background-color: #F47321;}
+.python {width: 60%; background-color: #F47321;}
+.cpp {width: 60%; background-color: #F47321;}
+.java {width: 60%; background-color: #F47321;}
+
+.arrow {
+    display: inline-block;
+    background-color: #fff;
+    width: 2em;
+    margin-left: 96%;
+    margin-bottom: 5%;
+}
+.arrow:hover {
+    background-color:#F47321;
+}

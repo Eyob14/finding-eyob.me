@@ -1,0 +1,282 @@
+/* ################################################### */
+/* ########################for mobile ############## */
+/* ################################################### */
+.main {
+    padding: 2em 0.5em;
+    line-height: 1.3;
+    font-size: 1.3em;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+
+}
+.section {
+    flex: 1 1 0;
+    padding: 1em 0.2em;
+    margin-bottom: 0.8em;
+    
+}
+.projects {
+    display: block;
+    width: 65%;
+    min-height: 4em;
+    margin: auto;
+    text-align: center;
+}
+.projects_a {
+    font-family: 'Roboto Slab', Arial, sans-serif;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000a12;
+    width: 100%;
+    min-height: 6em;
+    text-align: center;
+    padding-top: 2em;
+    border-radius: 20% 0 20% 0;
+    border: 2px solid #b13e8b;
+}
+.projects_a:hover {
+    background-color: #F47321;
+    box-shadow: 0 4px 8px 0 #4f5b62, 0 6px 20px 0 #fff;
+}
+.project_p {
+    font-family: 'proxima-nova', Arial, sans-serif;
+    font-size: 0.86em;
+    word-spacing: 0.1em;
+    padding: 1.5em 0.3em;
+    width: 75%;
+    margin: auto;
+    border-left: 2px solid #F47321;
+    border-bottom: 2px solid #F47321;
+}
+.images {
+    display: flex;
+    max-width: 40%;
+    margin-left: 10%;
+    margin-top: 1em;
+}
+.screen-shoots {
+    flex: 1 1 0;
+    max-width: 100%;
+    
+}
+.screen-shoots:hover {
+    box-shadow: 0 4px 8px 0 #4f5b62, 0 6px 20px 0 #fff;
+}
+.figure_caption {
+    font-family: 'Roboto Slab', Arial, sans-serif;
+    display: inline-block;
+    text-align: center;
+    font-size: 1em;
+    margin-left: 20%;
+    text-transform: capitalize;
+    border-bottom: 2px solid #F47321;
+}
+.arrow {
+    display: inline-block;
+    background-color: #fff;
+    width: 2em;
+    margin-left: 96%;
+    margin-bottom: 5%;
+}
+.arrow:hover {
+    background-color:#F47321;
+}
+/* ################################################### */
+/* ######################## for tablets ############## */
+/* ################################################### */
+
+@media only screen and (min-width: 670px) and  (max-width: 1023px) {
+    .projects {
+        display: block;
+        width: 50%;
+        min-height: 6em;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .projects_a {
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        background-color: #000a12;
+        width: 100%;
+        min-height: 6em;
+        text-align: center;
+        padding-top: 2em;
+    }
+    .project_p {
+        font-size: 1.3em;
+        padding: 0.7em 0.3em;
+        margin: auto;
+    }
+    .images {
+        display: flex;
+        border: 2px solid #b13e8b;
+    }
+    .screen-shoots {
+        flex: 1 1 0;
+        max-width: 100%;
+    }
+    .screen-shoots:hover {
+        box-shadow: 0 4px 8px 0 #4f5b62, 0 6px 20px 0 #fff;
+    }
+    .main__figure_fig-caption {
+        text-align: center;
+        border: 1px solid black;
+        text-transform: capitalize;
+    }
+    .projects_a {
+        font-family: 'Roboto Slab', Arial, sans-serif;
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        background-color: #000a12;
+        width: 100%;
+        min-height: 6em;
+        text-align: center;
+        padding-top: 2em;
+        border-radius: 20% 0 20% 0;
+        border: 2px solid #b13e8b;
+    }
+    .projects_a:hover {
+        background-color: #F47321;
+        box-shadow: 0 4px 8px 0 #4f5b62, 0 6px 20px 0 #fff;
+    }
+    .project_p {
+        font-family: 'proxima-nova', Arial, sans-serif;
+        font-size: 0.86em;
+        word-spacing: 0.1em;
+        padding: 1.5em 0.3em;
+        width: 75%;
+        margin: auto;
+        border-left: 2px solid #F47321;
+        border-bottom: 2px solid #F47321;
+    }
+    .images {
+        display: flex;
+        width: 40%;
+        margin-left: 10%;
+    }
+    .screen-shoots {
+        flex: 1 1 0;
+        max-width: 100%;
+        
+    }
+    .screen-shoots:hover {
+        box-shadow: 0 4px 8px 0 #4f5b62, 0 6px 20px 0 #fff;
+    }
+    .figure_caption {
+        font-family: 'Roboto Slab', Arial, sans-serif;
+        display: inline-block;
+        text-align: center;
+        font-size: 1em;
+        margin-left: 20%;
+        /* margin-top: 1em; */
+        text-transform: capitalize;
+        border-bottom: 2px solid #F47321;
+    }
+}
+
+
+/* ################################################### */
+/* ############################# For Desktop ############## */
+/* ################################################### */
+
+@media only screen and (min-width: 1023px) {
+    .wrapper__content {
+        display: grid;
+        grid-template-columns: 2fr fit-content(15%);
+        gap: 3px;
+        min-height: 100vh;
+    }
+    .wrapper__content__header {
+        grid-column: 2/3;
+        grid-row: 1;
+    }
+    .main {
+        grid-column: 1/2;
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: 2fr 2fr;
+        gap: 2em;
+        min-width: 100%;
+    }
+    .section_1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .section_2 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .section_3 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .section_4 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .projects {
+        display: block;
+        width: 50%;
+        min-height: 6em;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .projects_a {
+        font-family: 'Roboto Slab', Arial, sans-serif;
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        background-color: #000a12;
+        width: 100%;
+        min-height: 6em;
+        text-align: center;
+        padding-top: 2em;
+        border-radius: 20% 0 20% 0;
+        border: 2px solid #b13e8b;
+    }
+    .projects_a:hover {
+        background-color: #F47321;
+        box-shadow: 0 4px 8px 0 #4f5b62, 0 6px 20px 0 #fff;
+    }
+    .project_p {
+        font-family: 'proxima-nova', Arial, sans-serif;
+        font-size: 0.86em;
+        word-spacing: 0.1em;
+        padding: 1.5em 0.3em;
+        width: 75%;
+        margin: auto;
+        border-left: 2px solid #F47321;
+        border-bottom: 2px solid #F47321;
+    }
+    .images {
+        display: flex;
+        width: 40%;
+        margin-left: 10%;
+    }
+    .screen-shoots {
+        flex: 1 1 0;
+        max-width: 100%;
+        
+    }
+    .screen-shoots:hover {
+        box-shadow: 0 4px 8px 0 #4f5b62, 0 6px 20px 0 #fff;
+    }
+    .figure_caption {
+        font-family: 'Roboto Slab', Arial, sans-serif;
+        display: inline-block;
+        text-align: center;
+        font-size: 1em;
+        margin-left: 20%;
+        text-transform: capitalize;
+        border-bottom: 2px solid #F47321;
+    }
+
+}

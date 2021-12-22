@@ -1,0 +1,128 @@
+/* ################################################### */
+/* ########################for mobile  ############## */
+/* ################################################### */
+.contact-main {
+    padding: 1em;
+    margin: 1.2em 1.1em;
+    font-size: 1.2em;
+    line-height: 1.4; 
+}
+.heading {
+    text-align: center;
+    font-size: 2.3em;
+    white-space: nowrap;
+    padding-top: 1em;
+    margin: 0.3em;
+    text-transform: uppercase;
+    border-bottom: 1px solid #F47321;
+}
+.main:focus {
+    outline: 0;
+    width: 100%;
+
+  }
+.container {
+    display: flex;
+    width: 70%;
+    margin-left: 20%;
+    margin-top: 3em;
+    margin-right: 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 100%;
+    margin: 0;
+  }
+  
+.form * {
+    font-size: 0.9em;
+    letter-spacing: 0.075em;
+    font-weight: 300;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .form .field {
+    width: 100%;
+    position: relative;
+    margin-bottom: 15px;
+  }
+  
+  .form .field label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, #ffa56d, #ff6200);
+    width: 100%;
+    height: 64px;
+    transition: width 333ms ease-in-out;
+    text-align: center;
+    padding: 18px 0;
+  }
+  
+  .field input[type="text"],
+  .form_message {
+    border: none;
+    width: 100%;
+    height: 64px;
+    margin: 0;
+    padding-left: 19.5%;
+    color: #000;
+  }
+  
+  .form_message {
+    height: 64px;
+    resize: none;
+    transition: all 333ms ease-in-out;
+    padding-top: 18px;
+  }
+.form_message:focus,
+.form_message:not(:placeholder-shown) {
+    height: 166px;
+  }
+.form input[type="text"]:focus + label,
+.form input[type="text"]:not(:placeholder-shown) + label,
+.form_message:focus + label,
+.form_message:not(:placeholder-shown) + label,
+.field:hover label {
+    width: 18%;
+  }
+  .form input[type="submit"] {
+    background: linear-gradient(90deg, #ffa56d, #ff6200);
+    -webkit-appearance: none;
+    border: none;
+    position: relative;
+    padding: 13px 50px;
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+  }
+.form input[type="submit"]:hover,
+.form input[type="submit"]:focus {
+    background:#F47321;  
+}
+.arrow {
+  display: inline-block;
+  background-color: #fff;
+  width: 2em;
+  margin-left: 96%;
+  margin-bottom: 5%;
+}
+.arrow:hover {
+  background-color:#F47321;
+}
+/* ################################################### */
+/* ######################## for tablets ############## */
+/* ################################################### */
+
+@media only screen and (min-width: 670px) and  (max-width: 1023px) {    
+  .main {
+    flex-flow: column;
+  }
+}
+
+/* ################################################### */
+/* ############################# For Desktop ############## */
+/* ################################################### */
